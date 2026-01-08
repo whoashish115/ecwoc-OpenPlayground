@@ -221,6 +221,13 @@
     "coverStyle": "background: #312e81; color: #a5b4fc;"
   },
   {
+  "name":"URL Shortener",
+  "description":"Frontend-only URL shortener with redirection, click tracking, and localStorage persistence.",
+  "path":"projects/url-shortener",
+  "tags":["HTML","CSS","JavaScript","Utility"]
+},
+
+  {
     "title": "Infinite Runner",
     "category": "game",
     "description": "Procedural neon runner with parallax.",
@@ -990,7 +997,48 @@
     "icon": "ri-keyboard-line",
     "coverStyle": "background: #1e293b; color: #22d3ee;"
   },
-
+  {
+    "title": "Instagram Bio Generator",
+    "category": "utility",
+    "description": "Generate random Instagram bio suggestions with emojis and vibes.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "link": "./projects/word-memory-game/index.html",
+    "icon": "ri-file-word-line",
+    "coverStyle": "background: #be185d; color: white;"
+  } ,
+  {
+  "title": "Advanced Text Case Converter",
+  "category": "utility",
+  "description": "Convert text into multiple cases with live processing and shortcuts.",
+  "tech": ["HTML", "CSS", "JS"],
+  "link": "./projects/text-case-converter/index.html",
+  "icon": "ri-text",
+  "coverClass": "text-case-cover"
+}
+    "link": "./projects/Insta_bio_suggesstion/index.html",
+    "icon": "ri-user-line",
+    "coverStyle": "background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%); color: #7c2d12;"
+ add-url-shortener
+  }
+]
+  },
+  {
+    "title": "Hangman Game",
+    "category": "game",
+    "description": "Guess the hidden word one letter at a time before running out of attempts.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "link": "./projects/hangman-game/index.html",
+    "icon": "ri-keyboard-line",
+    "coverClass": "hangman-cover"
+  },
   {
     "title": "Particle Text",
     "category": "game",
@@ -1093,5 +1141,30 @@
     "link": "./projects/memory-flip-game/index.html",
     "icon": "ri-brain-line",
     "coverStyle": "background:#8b5cf6; color:white;"
-  }
+  },
+
+  ,
+  {
+  "title": "Drawing Canvas",
+  "category": "game",
+  "description": "A simple interactive canvas that lets users draw freely with adjustable brush size and color.",
+  "tech": ["HTML", "CSS", "JavaScript", "Canvas"],
+  "link": "./projects/simple-drawing-canvas/index.html",
+  "icon": "ri-brush-line",
+  "coverClass": "drawing-canvas-cover"
+}
+{
+  "title": "Online Food Delivery App",
+  "category": "utility",
+  "description": "Responsive food ordering UI with cart functionality",
+  "tech": ["HTML", "CSS", "JS"],
+  "link": "./projects/online-food-delivery/index.html",
+  "icon": "ri-restaurant-line",
+  "coverClass": "online-food-cover"
+}
+
+
+]
+main
+
 ]
