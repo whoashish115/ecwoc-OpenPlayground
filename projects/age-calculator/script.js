@@ -10,7 +10,7 @@ function calculateAge() {
         result.innerText = "Please select a valid date.";
         return;
     }
-   var birthDate = new Date(inputDate);
+    var birthDate = new Date(inputDate);
     var currentDate = new Date();
 
     var timeDiff = currentDate - birthDate;
@@ -70,10 +70,18 @@ function calculateAge() {
         resultElement.textContent = 'You are ' + age + ' ' + units + ' old!';
     }
 
-    function resetFields() {
-        const result = document.getElementById('result');
-        result.innerText = '';
-        document.getElementById('date').value = '';
-        document.getElementById('unitSelector').value = 'ymd';
-    }
+    // function resetFields() {
+    //     document.getElementById('date').value = '';
+    //     document.getElementById('unitSelector').value = 'ymd';
+    //     document.getElementById('result').innerText = '';
+    // }
+
 }
+
+
+function resetFields() {
+    document.getElementById('date').value = '';
+    document.getElementById('unitSelector').value = 'ymd';
+    document.getElementById('result').innerText = '';
+}
+
